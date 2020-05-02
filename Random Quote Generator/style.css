@@ -26,4 +26,15 @@ body {
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
 }
+
+#quoteBtn {
+  border-radius: 4px;
+  padding: 7px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#quoteBtn:hover {
+  color: grey;
+}
 /*# sourceMappingURL=style.css.map */
