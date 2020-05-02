@@ -39,3 +39,15 @@ const quotes = {
         quote : “Creativity Is Intelligence Having Fun.”
     }
 }
+
+const quoteBtn = document.querySelector('#quoteBtn');
+const quoteAuthor = document.querySelector('#quoteAuthor');
+const quote = document.querySelector('query');
+
+quoteBtn.addEventListener('click', displayQuote);
+
+function displayQuote(){
+
+    let num = Math.floor(Math.random()*quotes.length);
+
+}
