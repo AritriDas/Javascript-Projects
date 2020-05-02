@@ -6,14 +6,14 @@ body {
     background-image: linear-gradient(120deg, rgb(187, 39, 39), rgb(235, 235, 68));
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: whitesmoke;
-    background-image: url(bg-image.jpg);
+    //background-image: url(bg-image.jpg);
 
 }
 
 .container {
     text-align: center;
     padding: 2rem;
-    background: rgb(170, 168, 168);
+    background: rgb(158, 40, 40);
     backdrop-filter: blur(10px);
     border-radius: 8px;
     flex: 0 0 60%;
@@ -23,6 +23,7 @@ body {
     border-radius: 4px;
     padding: 7px;
     font-weight: bolder;
+    font-size: large;
     cursor: pointer;
     &:hover {
         color: grey;
