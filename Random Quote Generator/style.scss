@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, rgb(187, 39, 39), rgb(235, 235, 68));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    background-image: url(bg-image.jpg);
+
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    background: rgb(170, 168, 168);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    flex: 0 0 60%;
+}
