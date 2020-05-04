@@ -12,6 +12,7 @@ body {
   background-image: url(bg.jpg);
   background-size: cover;
   position: relative;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container {
@@ -30,6 +31,7 @@ button {
   padding: 5px;
   font-size: medium;
   font-weight: bold;
+  cursor: pointer;
 }
 
 input {
