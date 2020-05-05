@@ -6,5 +6,11 @@ sendBtn.addEventListener('click', sendMsg);
 
 function sendMsg() {
     let content = messageIn.value ;
-    messageOut.innerHTML = content;
+    if(content === '')
+        alert('Please write some message before sending...')
+    else {
+        messageOut.innerHTML = content;
+        messageIn.value = '';
+    }
+    
 }
