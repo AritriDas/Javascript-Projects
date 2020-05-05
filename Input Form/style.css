@@ -44,7 +44,7 @@ button:hover {
 
 input {
   width: 400px;
-  height: 30px;
+  padding: 10px;
   -webkit-box-shadow: 0 0 10px #a3a3be;
           box-shadow: 0 0 10px #a3a3be;
 }
