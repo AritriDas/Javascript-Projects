@@ -24,6 +24,7 @@ body {
   padding: 20px;
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
+  cursor: url("cursor.svg"), move;
 }
 
 button {
@@ -33,7 +34,6 @@ button {
   font-size: medium;
   font-weight: bold;
   border-radius: 8px;
-  cursor: pointer;
   background: #13137e;
   color: whitesmoke;
 }
@@ -45,6 +45,7 @@ button:hover {
 input {
   width: 400px;
   padding: 10px;
+  cursor: text;
   -webkit-box-shadow: 0 0 10px #a3a3be;
           box-shadow: 0 0 10px #a3a3be;
 }

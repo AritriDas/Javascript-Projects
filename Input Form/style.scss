@@ -17,6 +17,7 @@ body {
     position: absolute;
     padding: 20px;
     backdrop-filter: blur(6px);
+    cursor: url('cursor.svg'), move;
 }
 
 button {
@@ -26,7 +27,7 @@ button {
     font-size: medium;
     font-weight: bold;
     border-radius: 8px;
-    cursor: pointer;
+    // cursor: pointer;
     background: rgb(19, 19, 126);
     color: whitesmoke;
 
@@ -39,5 +40,7 @@ input {
     width: 400px;
     // height: 30px;
     padding: 10px;
+    // text-align: center;
+    cursor: text;
     box-shadow: 0 0 10px rgb(163, 163, 190);
 }
