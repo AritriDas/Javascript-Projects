@@ -32,6 +32,7 @@ button {
   padding: 7px;
   font-size: medium;
   font-weight: bold;
+  border-radius: 8px;
   cursor: pointer;
   background: #13137e;
   color: whitesmoke;
@@ -44,5 +45,7 @@ button:hover {
 input {
   width: 400px;
   height: 30px;
+  -webkit-box-shadow: 0 0 10px #a3a3be;
+          box-shadow: 0 0 10px #a3a3be;
 }
 /*# sourceMappingURL=style.css.map */
