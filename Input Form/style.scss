@@ -21,10 +21,17 @@ body {
 
 button {
     margin-top: 15px;
-    padding: 5px;
+    width: 90px;
+    padding: 7px;
     font-size: medium;
     font-weight: bold;
     cursor: pointer;
+    background: rgb(19, 19, 126);
+    color: whitesmoke;
+
+    &:hover {
+        background-color: rgb(41, 41, 173);
+    }
 }
 
 input {

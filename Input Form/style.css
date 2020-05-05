@@ -28,10 +28,17 @@ body {
 
 button {
   margin-top: 15px;
-  padding: 5px;
+  width: 90px;
+  padding: 7px;
   font-size: medium;
   font-weight: bold;
   cursor: pointer;
+  background: #13137e;
+  color: whitesmoke;
+}
+
+button:hover {
+  background-color: #2929ad;
 }
 
 input {
