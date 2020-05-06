@@ -36,5 +36,8 @@ button {
   font-weight: bolder;
   font-size: large;
   cursor: pointer;
+  border-radius: 7px;
+  -webkit-box-shadow: 1px 5px #a0a0a0;
+          box-shadow: 1px 5px #a0a0a0;
 }
 /*# sourceMappingURL=style.css.map */
