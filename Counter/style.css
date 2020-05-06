@@ -30,6 +30,30 @@ body {
   margin: 0;
 }
 
+hr {
+  width: 50%;
+  margin: 0 auto;
+  overflow: visible;
+  /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
 button {
   padding: 0.7rem;
   margin: 20px;
@@ -39,5 +63,10 @@ button {
   border-radius: 7px;
   -webkit-box-shadow: 1px 5px #a0a0a0;
           box-shadow: 1px 5px #a0a0a0;
+}
+
+button:hover {
+  -webkit-box-shadow: 4px 8px #888787;
+          box-shadow: 4px 8px #888787;
 }
 /*# sourceMappingURL=style.css.map */
