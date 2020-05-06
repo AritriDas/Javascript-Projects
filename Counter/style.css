@@ -25,6 +25,11 @@ body {
           box-shadow: 3px 3px 10px 10px #a0a0a0;
 }
 
+.counter {
+  font-size: 6rem;
+  margin: 0;
+}
+
 button {
   padding: 0.7rem;
   margin: 20px;
