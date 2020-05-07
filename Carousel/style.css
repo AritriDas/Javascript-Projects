@@ -35,10 +35,20 @@ body {
   left: -5%;
 }
 
+.images .prevBtn:hover {
+  -webkit-box-shadow: 5px 9px #8b8a8a;
+          box-shadow: 5px 9px #8b8a8a;
+}
+
 .images .nextBtn {
   position: absolute;
   top: 45%;
   right: -5%;
+}
+
+.images .nextBtn:hover {
+  -webkit-box-shadow: 5px 9px #8b8a8a;
+          box-shadow: 5px 9px #8b8a8a;
 }
 
 button {

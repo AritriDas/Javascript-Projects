@@ -23,12 +23,18 @@ body {
         position: absolute;
         top: 45%;
         left: -5%;
+        &:hover {
+            box-shadow: 5px 9px rgb(139, 138, 138);
+        }
     }
 
     .nextBtn {
         position: absolute;
         top: 45%;
         right: -5%;
+        &:hover {
+            box-shadow: 5px 9px rgb(139, 138, 138);
+        }
     }
 }
 
