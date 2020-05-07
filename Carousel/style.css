@@ -1,0 +1,22 @@
+body {
+  min-height: 98vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url(bg-img.png) center/cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+  padding: 0.6rem;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 9px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -3,4 +3,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(bg-img.png)center/cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.images {
+    
+}
+
+button {
+    padding: 0.6rem;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 9px;
 }
