@@ -3,12 +3,33 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(bg-img.png)center/cover;
+    background: url('bg-img.png')center/cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .images {
-    
+    background: greenyellow;   
+    flex: 0 0 50%;
+    min-height: 60vh;
+    background: url('bg.jpg')center/cover;
+    position: relative;
+
+    .btn {
+        display: inline-block;
+        box-shadow: 3px 6px rgb(155, 154, 154);
+    }
+
+    .prevBtn {
+        position: absolute;
+        top: 45%;
+        left: -5%;
+    }
+
+    .nextBtn {
+        position: absolute;
+        top: 45%;
+        right: -5%;
+    }
 }
 
 button {

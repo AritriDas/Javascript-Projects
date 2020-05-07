@@ -9,8 +9,36 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(bg-img.png) center/cover;
+  background: url("bg-img.png") center/cover;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.images {
+  background: greenyellow;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  min-height: 60vh;
+  background: url("bg.jpg") center/cover;
+  position: relative;
+}
+
+.images .btn {
+  display: inline-block;
+  -webkit-box-shadow: 3px 6px #9b9a9a;
+          box-shadow: 3px 6px #9b9a9a;
+}
+
+.images .prevBtn {
+  position: absolute;
+  top: 45%;
+  left: -5%;
+}
+
+.images .nextBtn {
+  position: absolute;
+  top: 45%;
+  right: -5%;
 }
 
 button {
