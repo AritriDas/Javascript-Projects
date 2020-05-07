@@ -9,6 +9,9 @@ prevBtn.addEventListener('click', prevSlide);
 nextBtn.addEventListener('click', nextSlide);
 
 function nextSlide(){
+    
+    container.animate([{opacity:'0.5'},{opacity: '1.0'}],{duration : 2000, fill: 'forwards'});
+
     if(counter < (images.length-1)) {
     counter++;
     console.log(counter);
@@ -20,6 +23,9 @@ function nextSlide(){
 }
 
 function prevSlide(){
+
+    container.animate([{opacity:'0.5'},{opacity:'1'}],{duration:2000, fill: 'backwards'})
+
    if(counter > 0) {
     counter--;
     console.log(counter);
