@@ -1,0 +1,14 @@
+body {
+  min-height: 98vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(120deg, #f3e0e0, #c52020);
+}
+/*# sourceMappingURL=style.css.map */
