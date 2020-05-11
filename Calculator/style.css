@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   min-height: 98vh;
   display: -webkit-box;
@@ -10,5 +17,26 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-image: linear-gradient(120deg, #f3e0e0, #c52020);
+}
+
+.calculator {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.screen {
+  width: 100%;
+  font-size: 3.5rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
