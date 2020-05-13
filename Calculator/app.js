@@ -12,6 +12,7 @@ for(let i = 0 ; i < btns.length ; i++) {
 
 equal.addEventListener('click', function() {
     let value = eval(screen.value);
+    screen.value = value;
 })
 
 clear.addEventListener('click', function() {
