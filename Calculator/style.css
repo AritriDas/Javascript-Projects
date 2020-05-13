@@ -32,6 +32,7 @@ body {
   border: none;
   padding: 0.5rem;
   background: rgba(241, 241, 241, 0.6);
+  margin-bottom: 0.3rem;
 }
 
 .buttons {
@@ -51,5 +52,19 @@ button {
   padding: 0.8rem;
   font-size: 1.5rem;
   font-weight: bold;
+  color: whitesmoke;
+}
+
+.btn-equal {
+  background: #209420;
+  border: none;
+}
+
+.btn-clear {
+  background: #0f0f8a;
+}
+
+.btn {
+  background: #1a9397;
 }
 /*# sourceMappingURL=style.css.map */

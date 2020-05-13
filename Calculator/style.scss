@@ -15,6 +15,7 @@ body {
 
 .calculator {
     flex: 0 0 40%;
+    // background: whitesmoke;
 }
 
 .screen {
@@ -23,6 +24,7 @@ body {
     border: none;
     padding: 0.5rem;
     background: rgba(241, 241, 241, 0.6);
+    margin-bottom: 0.3rem;
 }
 
 .buttons {
@@ -36,4 +38,17 @@ button {
     padding: 0.8rem;
     font-size: 1.5rem;
     font-weight: bold;
+    color: whitesmoke;
+}
+.btn-equal {
+    background: rgb(32, 148, 32);
+    border: none;
+}
+
+.btn-clear {
+    background: rgb(15, 15, 138);
+}
+
+.btn {
+    background: rgb(26, 147, 151);
 }
