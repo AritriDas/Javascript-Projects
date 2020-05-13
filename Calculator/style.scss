@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(120deg, rgb(243, 224, 224), rgb(197, 32, 32));
+    background-image: linear-gradient(120deg, rgb(223, 219, 29), rgb(197, 32, 32));
 }
 
 .calculator {
@@ -25,6 +25,7 @@ body {
     padding: 0.5rem;
     background: rgba(241, 241, 241, 0.6);
     margin-bottom: 0.3rem;
+    text-align: center;
 }
 
 .buttons {
