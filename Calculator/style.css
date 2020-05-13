@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -21,8 +22,8 @@ body {
 
 .calculator {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
 }
 
 .screen {
@@ -30,6 +31,7 @@ body {
   font-size: 3.5rem;
   border: none;
   padding: 0.5rem;
+  background: rgba(241, 241, 241, 0.6);
 }
 
 .buttons {
@@ -38,5 +40,16 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+button {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

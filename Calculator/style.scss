@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 }
 
 .calculator {
-    flex: 0 0 50%;
+    flex: 0 0 40%;
 }
 
 .screen {
@@ -21,9 +22,18 @@ body {
     font-size: 3.5rem;
     border: none;
     padding: 0.5rem;
+    background: rgba(241, 241, 241, 0.6);
 }
 
 .buttons {
     display: flex;
     flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+
+button {
+    flex: 0 0 25%;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
