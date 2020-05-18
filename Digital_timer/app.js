@@ -10,17 +10,28 @@ function showTime() {
     let formatHours = convertFormat(hours);
     hours = changeHours(hours);
 
-    function convertFormat(hours) {
-        let format = 'AM';
+    hours = addZero(hours);
+    minutes = addZero(minutes);
+    seconds = addZero(seconds);
+}
 
-        if(hours >= 12)
-            format = 'PM';
+function convertFormat(hours) {
+    let format = 'AM';
 
-        return format;
-    }
+    if(hours >= 12)
+        format = 'PM';
 
-    function changeHours(hours) {
-        hours = hours % 12;
-        return hours;
-    }
+    return format;
+}
+
+function changeHours(hours) {
+    hours = hours % 12;
+    return hours;
+}
+
+function addZero(time) {
+    if(time < 10)
+        time = '0' + time ;
+    
+    return time;
 }
