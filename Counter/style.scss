@@ -26,6 +26,7 @@ hr {
     margin: 0 auto;
     border: 0;
     height: 1px;
+    transition: width 2s ease-out;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
 }
 

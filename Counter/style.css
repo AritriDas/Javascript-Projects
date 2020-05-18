@@ -35,6 +35,8 @@ hr {
   margin: 0 auto;
   border: 0;
   height: 1px;
+  -webkit-transition: width 2s ease-out;
+  transition: width 2s ease-out;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(white), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
 }
