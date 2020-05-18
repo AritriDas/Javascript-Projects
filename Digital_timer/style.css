@@ -18,8 +18,11 @@ body {
 }
 
 #timer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
   font-family: 'Orbitron', sans-serif;
-  font-size: 5rem;
+  font-size: 6.5rem;
   color: #96c230f1;
 }
 /*# sourceMappingURL=style.css.map */

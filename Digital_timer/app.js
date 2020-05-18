@@ -1,4 +1,4 @@
-const timer = document.querySelector('timer');
+const timer = document.querySelector('#timer');
 
 function showTime() {
 
@@ -7,12 +7,14 @@ function showTime() {
     let minutes = date.getMinutes();
     let seconds = date.getSeconds();
 
-    let formatHours = convertFormat(hours);
+    let format = convertFormat(hours);
     hours = changeHours(hours);
 
     hours = addZero(hours);
     minutes = addZero(minutes);
     seconds = addZero(seconds);
+
+    timer.innerHTML = `${hours} : ${minutes} : ${seconds} ${format}`;
 }
 
 function convertFormat(hours) {
@@ -35,3 +37,6 @@ function addZero(time) {
     
     return time;
 }
+
+showTime();
+setInterval(showTime,1000);
