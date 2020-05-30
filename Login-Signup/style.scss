@@ -72,7 +72,7 @@ section {
                     outline: none;
                     box-shadow: none;
                     margin: 8px 0;
-                    font-size: 14px;
+                    font-size: 15px;
                     &[type=submit] {
                         max-width: 150px;
                         background: #2e42b4;
@@ -81,6 +81,18 @@ section {
                         font-weight: 500;
                         letter-spacing: 1px;
                         transition: 0.5s;
+                    }
+                }
+                .signup {
+                    position: relative;
+                    margin-top: 20px;
+                    font-size: 13px;
+                    text-align: center;
+                    color: #2e42b4;
+                    a {
+                        font-weight: 600;
+                        text-decoration: none;
+                        color: #677eff;
                     }
                 }
             }

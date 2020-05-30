@@ -100,7 +100,7 @@ section {
   -webkit-box-shadow: none;
           box-shadow: none;
   margin: 8px 0;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .container .user .formBox form input[type=submit] {
@@ -112,5 +112,19 @@ section {
   letter-spacing: 1px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.container .user .formBox form .signup {
+  position: relative;
+  margin-top: 20px;
+  font-size: 13px;
+  text-align: center;
+  color: #2e42b4;
+}
+
+.container .user .formBox form .signup a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #677eff;
 }
 /*# sourceMappingURL=style.css.map */
