@@ -10,13 +10,14 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fee648;
+    // background: #fee648;
+    background: #FED847;
 }
 
 .container {
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: 700px;
+    height: 450px;
     background: #fff;
     box-shadow: 0 15px 50px rgba(0,0,0,0.2);
     overflow: hidden;
@@ -27,5 +28,62 @@ section {
         width: 100%;
         height: 100%;
         display: flex;
+        .imgBox {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: #ff0;
+            transition: 0.5s;
+            img {
+                position: absolute;
+                left: 0;
+                top: 0;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .formBox {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            transition: 0.3s;
+            form {
+                h2 {
+                    font-size: 3rem;
+                    font-weight: 600;
+                    text-align: center;
+                    width: 100%;
+                    margin-bottom: 10px;
+                    color: #555;
+                }
+                input {
+                    position: relative;
+                    width: 100%;
+                    padding: 10px;
+                    background: #f5f5f5;
+                    color: #333;
+                    border: none;
+                    outline: none;
+                    box-shadow: none;
+                    margin: 8px 0;
+                    font-size: 14px;
+                    &[type=submit] {
+                        max-width: 150px;
+                        background: #2e42b4;
+                        color: #fff;
+                        cursor: pointer;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
     }
 }
