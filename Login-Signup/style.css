@@ -76,8 +76,8 @@ section {
       -ms-flex-align: center;
           align-items: center;
   padding: 30px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .container .user .formBox form h2 {
@@ -99,7 +99,7 @@ section {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  margin: 8px 0;
+  margin: 5px 0;
   font-size: 15px;
 }
 
@@ -112,6 +112,7 @@ section {
   letter-spacing: 1px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  left: 25%;
 }
 
 .container .user .formBox form .signup {
