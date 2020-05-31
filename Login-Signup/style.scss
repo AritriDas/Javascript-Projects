@@ -15,6 +15,7 @@ section {
 }
 
 .container {
+    // border-radius: 10px;
     position: relative;
     width: 700px;
     height: 450px;
@@ -107,7 +108,7 @@ section {
         .imgBox {
             left: -100%;
         }
-    }
+    }   
 }
 
 .container.active .signupBox {
@@ -119,4 +120,28 @@ section {
 .container.active .signupBox .imgBox {
     left: 0;
 }
+
+.container .signinBox .formBox {
+    left: 0;
+}
+.container.active .signinBox .formBox {
+    left: 100;
+}
+.container .signinBox .imgBox {
+    left: 0;
+}
+.container.active .signinBox .imgBox {
+    left: -100;
+}
  
+@media (max-width: 991px) {
+    section .container {
+        max-width: 350px;
+        .imgBox {
+            display: none;
+        }
+        .user .formBox {
+            width: 100%;
+        }
+    }
+}

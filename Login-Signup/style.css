@@ -152,4 +152,32 @@ section {
 .container.active .signupBox .imgBox {
   left: 0;
 }
+
+.container .signinBox .formBox {
+  left: 0;
+}
+
+.container.active .signinBox .formBox {
+  left: 100;
+}
+
+.container .signinBox .imgBox {
+  left: 0;
+}
+
+.container.active .signinBox .imgBox {
+  left: -100;
+}
+
+@media (max-width: 991px) {
+  section .container {
+    max-width: 350px;
+  }
+  section .container .imgBox {
+    display: none;
+  }
+  section .container .user .formBox {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
