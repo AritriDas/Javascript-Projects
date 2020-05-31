@@ -109,3 +109,14 @@ section {
         }
     }
 }
+
+.container.active .signupBox {
+    pointer-events: initial;
+}
+.container.active .signupBox .formBox {
+    left: 0;
+}
+.container.active .signupBox .imgBox {
+    left: 0;
+}
+ 

@@ -140,4 +140,16 @@ section {
 .container .signupBox .imgBox {
   left: -100%;
 }
+
+.container.active .signupBox {
+  pointer-events: initial;
+}
+
+.container.active .signupBox .formBox {
+  left: 0;
+}
+
+.container.active .signupBox .imgBox {
+  left: 0;
+}
 /*# sourceMappingURL=style.css.map */
