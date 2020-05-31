@@ -99,4 +99,13 @@ section {
             }
         }
     }
+    .signupBox {
+        pointer-events: none;
+        .formBox {
+            left: 100%;
+        }
+        .imgBox {
+            left: -100%;
+        }
+    }
 }

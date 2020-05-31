@@ -128,4 +128,16 @@ section {
   text-decoration: none;
   color: #677eff;
 }
+
+.container .signupBox {
+  pointer-events: none;
+}
+
+.container .signupBox .formBox {
+  left: 100%;
+}
+
+.container .signupBox .imgBox {
+  left: -100%;
+}
 /*# sourceMappingURL=style.css.map */

@@ -11,7 +11,7 @@
         <div class="container">
             <div class="user signinBox">
                 <div class="imgBox">
-                    <img src="image.jpg" alt="bg">
+                    <img src="img4.jpg" alt="bg">
                 </div>
                 <div class="formBox">
                     <form>
@@ -21,7 +21,7 @@
                         <input type="submit" name="" value="Login">
                         <p class="signup">
                             Don't have an account? 
-                            <a href="#">Sign Up</a>
+                            <a href="#" onclick="formToggle();">Sign Up</a>
                         </p>
                     </form>
                 </div>
@@ -37,15 +37,21 @@
                         <input type="submit" name="" value="Sign Up">
                         <p class="signup">
                             Already have an account? 
-                            <a href="#">Sign In</a>
+                            <a href="#" onclick="formToggle();">Sign In</a>
                         </p>
                     </form>
                 </div>
                 <div class="imgBox">
-                    <img src="img4.jpg" alt="bg">
+                    <img src="img5.jpg" alt="bg">
                 </div>
             </div>
         </div>
     </section>
+    <script type="text/javascript">
+        function formToggle() {
+        let container = document.querySelector('.container');
+        container.classList.toggle('active')
+    }
+    </script>
 </body>
 </html>
